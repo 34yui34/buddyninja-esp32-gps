@@ -4,18 +4,18 @@
 #include <time.h>
 
 // WiFi credentials
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "Wokwi-GUEST";
+const char* password = "";
 
-// Server endpoint (replace with your actual server URL)
-const char* serverUrl = "http://YOUR_SERVER_URL/api/data";
+// Server endpoint
+const char* serverUrl = "https://buddyninja-esp32-gps.onrender.com";
 
 // Device ID
 const char* deviceId = "ESP32_001";
 
 // Time configuration
 const char* ntpServer = "pool.ntp.org";
-const long gmtOffset_sec = 0;  // Adjust for your timezone
+const long gmtOffset_sec = 0;
 const int daylightOffset_sec = 0;
 
 // Timing variables
