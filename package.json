@@ -1,0 +1,20 @@
+{
+    "name": "esp32-location-tracker",
+    "version": "1.0.0",
+    "description": "ESP32 Location Tracker Backend Server",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "node server.js"
+    },
+    "keywords": ["esp32", "iot", "location", "tracker"],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "cors": "^2.8.5"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
