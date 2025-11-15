@@ -4,11 +4,12 @@
 #include <time.h>
 
 // WiFi credentials
+// Change to your wifi credentials here
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 // Server endpoint
-const char* serverUrl = "https://buddyninja-esp32-gps.onrender.com";
+const char* serverUrl = "https://buddyninja-esp32-gps.onrender.com/api/data";
 
 // Device ID
 const char* deviceId = "ESP32_001";
